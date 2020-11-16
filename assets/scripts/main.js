@@ -23,3 +23,12 @@ const coinWithoutClass = {
 console.group("coinWithoutClass")
 console.log(coinWithoutClass)
 console.groupEnd()
+
+const coin1 = new Coin(1)
+const coin2 = new Coin(0)
+const coin3 = new Coin(1)
+const coin4 = new Coin(1)
+
+console.group("coin as a class")
+console.log({ coin1, coin2, coin3, coin4 })
+console.groupEnd()
