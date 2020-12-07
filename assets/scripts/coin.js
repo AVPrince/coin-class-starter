@@ -1,14 +1,15 @@
 class Coin {
-    constructor(initialState){
+    constructor(initialState) {
         this.state = initialState;
     }
-    flip (){
+
+    flip() {
         console.log("coin.flip() has been invoked.")
     }
-    toString (){
+    toString() {
         console.log("coin.toString() has been invoked.")
     }
-    toHTML (){
+    toHTML() {
         let image = document.createElement('img')
         console.log("coin.toHTML() has been invoked.")
         return image
